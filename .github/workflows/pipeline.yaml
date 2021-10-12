@@ -87,5 +87,5 @@ jobs:
         working-directory: ./demo-app
       - run: npm run build
         working-directory: ./demo-app
-      - run: aws s3 cp build s3://oyre001-static-website-bucket20211011200749339600000002 --recursive --region eu-north-1
+      - run: aws s3 cp build s3://oyre001-static-website-bucket20211012083523431900000002 --recursive --region eu-north-1
         working-directory: ./demo-app
