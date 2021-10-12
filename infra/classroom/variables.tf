@@ -1,5 +1,5 @@
 variable "students" {
-  type = map
+  type = map(any)
 
   default = {
     bechgle = {
@@ -79,7 +79,7 @@ variable "students" {
 
 variable "classroom_name" {
   description = "the name of the classroom"
-  default = "pgr301-05-cd"
+  default     = "pgr301-05-cd"
 }
 
 variable "region" {

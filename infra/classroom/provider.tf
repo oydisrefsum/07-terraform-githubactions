@@ -6,7 +6,7 @@ terraform {
     }
 
     openpgp = {
-      source = "greatliontech/openpgp"
+      source  = "greatliontech/openpgp"
       version = "0.0.3"
     }
   }
